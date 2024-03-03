@@ -1,7 +1,7 @@
 import sys
 
 def menu():
-     o1=int (input("programas de las tareas \n1.tareas de la 2-9 introducion a python\n2.tareasde la 10-20 listas \n3.tareas de la 21-28 IF \n4.tareas de la 29-33 FOR\n5.41-51\n6.Salir\n"))
+     o1=int (input("programas de las tareas \n1.tareas de la 2-9 introducion a python\n2.tareasde la 10-20 listas \n3.tareas de la 21-28 IF \n4.tareas de la 29-33 FOR\n5.tareas de la 34-42\n6.ttareas de la 43-51\n7.Salir\n"))
 
      match o1:
 
@@ -258,7 +258,7 @@ def menu():
                          a33["pez"]="morado"
                          print(a33)
           case 5:
-               o5=int (input("\n tarea 2-9\n1.variables\n2.strings\n3.concatenar\n4.upper,lower y title\n5.salto de linea y tabulacion\n6.operaciones basicas\n7.exponentes\n8.los floats y el metodo roud\n"))
+               o5=int (input("\n tarea de la 34-42\n1.funciones\n2.args\n3.kwargs\n4.clases y objetos\n5.__init__\n6.self\n7.clases vacias \n8.herencia\n9.herencia propiedad de__init__\n"))
                match o5:
                     case 1:
                          #TAREA 34
@@ -323,7 +323,11 @@ def menu():
                          e39.i39()
                     case 7:
                          #TAREA 40
-                              print("\nTAREA 40\n")
+                         print("\nTAREA 40\n")
+                         class a40:
+                              pass
+                         a40()
+                              
                     case 8 :
                          #TAREA 41
                          class a41:
@@ -368,6 +372,32 @@ def menu():
                          e42=p42("Antonio","Lopez Haro","20")
                          e42.l42()
           case 6:
+               o6=int (input("\n tarea de la 34-42\n1.funciones\n2.args\n3.kwargs\n4.clases y objetos\n5.__init__\n6.self\n7.clases vacias \n8.herencia\n9.herencia propiedad de__init__\n"))
+               match o6:
+                    case 1:
+                         #TAREA 43
+                         def a43():
+                              global b43
+                              b43=26
+                         a43()
+                         print("\nTAREA 43\n",b43)
+                    case 2:
+                         #tarea 44
+                         print("\nTAREA 44\n")
+                         import math
+                         a44=lambda radio:(math.pi*radio*radio)
+                         print(a44(5))
+                    case 3:
+                         #TAREA 45
+                         print("\nTAREA 44\n")
+                         import datetime
+                         a45=datetime.datetime(2003,3,26,5,45,24)
+                         print(a45)
+                    case 4:
+                         #TAREA 46
+                         print("hola")
+
+
 
                               
           case 7:
