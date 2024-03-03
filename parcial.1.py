@@ -278,8 +278,99 @@ def menu():
                               r35=args[0]+args[3]*args[2]-args[1]
                               print("operacion=",r35)
                          b35(4,7,3,6,3,4)
-
+                    case 3:
+                         #TAREA 36
+                         def a36(**kwargs):
+                              print("\nTAREA 36\n el animal es "+kwargs["b36"])
+                         a36(b36="lobo",c36="leon")
+                    case 4:
+                         #TAREA 37
+                         class a37:
+                              nombre=""
+                              apellidos=""
+                              def i37(self):
+                                   print("\nTAREA 37\nnombre:",self.nombre,"\napellido:",self.apellidos)
+                         b37=a37()
+                         b37.nombre="Marifer"
+                         b37.apellidos="Estrada Rubio"
+                         b37.i37()
+                    case 5:
+                         #TAREA 38 
+                         class a38:
+                              print("\nTAREA 38\n")
+                              def __init__(self,b38,c38):
+                                   self.b38=b38
+                                   self.c38=c38
+                              def i38(self):
+                                   print("nombre:",self.b38,"\napellidos:",self.c38)
+                         d38=a38("Marifer","Estrada Rubio")
+                         e38=a38("Antonio","Lopez Haro")
+                         d38.i38()
+                         e38.i38()
+                    case 6:
+                         #TAREA 39
+                         class a39:
+                              print("\nTAREA 39\n")
+                              def __init__(self,b39,c39):
+                                   self.b39=b39
+                                   self.c39=c39
+                              def i39(self):
+                                   print("nombre:",self.b39,"\napellidos:",self.c39)
+                         d39=a39("Marifer","Estrada Rubio")
+                         e39=a39("Antonio","Lopez Haro")
+                         e39.b39="Jose Antonio"
+                         d39.i39()
+                         e39.i39()
+                    case 7:
+                         #TAREA 40
+                              print("\nTAREA 40\n")
+                    case 8 :
+                         #TAREA 41
+                         class a41:
+                              print("\nTAREA 41\n")
+                              def __init__(self,b41,c41):
+                                   self.b41=b41
+                                   self.c41=c41
+                              def i41(self):
+                                   print("nombre:",self.b41,"\napellidos:",self.c41)
+                         d41=a41("Marifer","Estrada Rubio")
+                         e41=a41("Antonio","Lopez Haro")
+                         e41.b41="Jose Antonio"
+                         d41.i41()
+                         e41.i41()
+                         class p41(a41):
+                              print("\nsup clase\n")
+                              def __init__(self,u41):
+                                   self.u41=u41
+                              def l41(self):
+                                        print(self.u41)
+                         u41=p41("marifer")
+                         u41.l41()
+                    case 9:
+                         #TAREA 42
+                         class a42:
+                              print("\nTAREA 42\n")
+                              def __init__(self,b42,c42):
+                                   self.b42=b42
+                                   self.c42=c42
+                              def i42(self):
+                                   print("nombre:",self.b42,"\napellidos:",self.c42)
+                         d42=a42("Marifer","Estrada Rubio")
+                         d42.i42()
+                         class p42(a42):
+                              print("\nsup clase\n")
+                              def __init__(self,b42,c42,u42):
+                                   self.b42=b42
+                                   self.c42=c42
+                                   self.u42=u42
+                              def l42(self):
+                                   print("nombre:",self.b42,"\napellidos:",self.c42,"\nedad",self.u42)
+                         e42=p42("Antonio","Lopez Haro","20")
+                         e42.l42()
           case 6:
+
+                              
+          case 7:
                sys.exit()
 while(1):
      menu()
