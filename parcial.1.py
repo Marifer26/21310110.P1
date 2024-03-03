@@ -268,7 +268,16 @@ def menu():
                          s34(40,50)
                          s34(100,200)
                          s34(3000,7000)
+                    case 2:
+                         #TAREA 35 
+                         def a35(*args):
+                              print("\nTAREA 35\nanimal en el espacio",args[2])
 
+                         a35("perro","gato","pez")
+                         def b35(*args):
+                              r35=args[0]+args[3]*args[2]-args[1]
+                              print("operacion=",r35)
+                         b35(4,7,3,6,3,4)
 
           case 6:
                sys.exit()
