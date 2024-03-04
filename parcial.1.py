@@ -395,8 +395,36 @@ def menu():
                          print(a45)
                     case 4:
                          #TAREA 46
-                         print("hola")
-
+                         print("\nTRAREA 46\n")
+                         import datetime
+                         a46 = datetime.datetime.now()
+                         print(a46.strftime("fecha de hoy :%x"))
+                    case 5 :
+                         #TAREA 47
+                         print("\nTAREA 47\n")
+                         import re
+                         a47="Hola mi nombre es Marifer"
+                         b47=re.search("Marifer",a47)
+                         print(b47)
+                    case 6:
+                         #TAREA 48
+                         print("\nTAREA 48\n")
+                         import re 
+                         a48="un maestro de todas las areas es un maestro en ni una pero sigue siendo mejor que un maestro es una area "  
+                         b48=re.findall("maestro",a48)
+                         print(b48)
+                    case 7:
+                         #TAREA 49
+                         print("\nTAREA 49\n")
+                         import re 
+                         a49="un maestro de todas las areas es un maestro en ni una pero sigue siendo mejor que un maestro es una area "  
+                         b49=re.split("maestro",a49,)
+                         c49=re.sub(" ","-",a49,9)
+                         print(c49)
+                         print(b49)
+                    case 8:
+                         #TAREA 50
+                         
 
 
                               
