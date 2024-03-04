@@ -1,7 +1,7 @@
 import sys
 
 def menu():
-     o1=int (input("programas de las tareas \n1.tareas de la 2-9 introducion a python\n2.tareasde la 10-20 listas \n3.tareas de la 21-28 IF \n4.tareas de la 29-33 FOR\n5.tareas de la 34-42\n6.ttareas de la 43-51\n7.Salir\n"))
+     o1=int (input("programas de las tareas \n1.tareas de la 2-9 introducion a python\n2.tareas de la 10-20 listas \n3.tareas de la 21-28 IF \n4.tareas de la 29-33 FOR\n5.tareas de la 34-42\n6.tareas de la 43-51\n7.Salir\n"))
 
      match o1:
 
@@ -372,7 +372,7 @@ def menu():
                          e42=p42("Antonio","Lopez Haro","20")
                          e42.l42()
           case 6:
-               o6=int (input("\n tarea de la 34-42\n1.funciones\n2.args\n3.kwargs\n4.clases y objetos\n5.__init__\n6.self\n7.clases vacias \n8.herencia\n9.herencia propiedad de__init__\n"))
+               o6=int (input("\n tarea de la 43-51\n1.variable globales\n2.lambda\n3.fecha\n4.strftime\n5.search\n6.findall\n7.split y sub\n8.secuencias especiales\n9.excepciones\n"))
                match o6:
                     case 1:
                          #TAREA 43
@@ -424,10 +424,22 @@ def menu():
                          print(b49)
                     case 8:
                          #TAREA 50
-                         
-
-
-                              
+                         print("\nTAREA 48\n")
+                         import re 
+                         a50="un maestro de todas las areas es un maestro en ni una pero sigue siendo mejor que un maestro es una area "  
+                         b50=re.findall("[a-e]",a50)
+                         print(b50)
+                    case 9:
+                         #TAREA 51
+                         b51="declarada"
+                         try:
+                              print(b51)
+                         except:
+                              print("no esta declarada ")
+                         try:
+                              print(a51)#variable no declarada para la practica de variable no declarada 
+                         except:
+                              print("no esta declarada")                   
           case 7:
                sys.exit()
 while(1):
