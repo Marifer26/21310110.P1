@@ -30,9 +30,9 @@ def menu():
                          c4= '10'
                          d4= '20'
                          s4=c4+d4
-                         suma3= t4+a4+" "+b4
+                         suma4= t4+a4+" "+b4
                          print("\nTAREA 4\n",t4+a4+b4)
-                         print(suma3)
+                         print(suma4)
                          print(t4+" "+a4+" "+b4)
                          print(s4)
                     case 4:
@@ -410,14 +410,14 @@ def menu():
                          #TAREA 48:expresiones regulares - findall()-RegEx
                          print("\nTAREA 48\n")
                          import re 
-                         a48="un maestro de todas las areas es un maestro en ni una pero sigue siendo mejor que un maestro es una area "  
+                         a48="un maestro de todas las areas es un maestro en ninguna pero sigue siendo mejor que un maestro en una area"  
                          b48=re.findall("maestro",a48)
                          print(b48)
                     case 7:
                          #TAREA 49: expresiones regulares -split()y sub()-RegEx
                          print("\nTAREA 49\n")
                          import re 
-                         a49="un maestro de todas las areas es un maestro en ni una pero sigue siendo mejor que un maestro es una area "  
+                         a49="un maestro de todas las areas es un maestro en ninguna pero sigue siendo mejor que un maestro en una area"  
                          b49=re.split("maestro",a49,)
                          c49=re.sub(" ","-",a49,9)
                          print(c49)
@@ -426,7 +426,7 @@ def menu():
                          #TAREA 50: secuencias especiales , matecaracteres y sets- Espresiones reguladas - Reg-Ex
                          print("\nTAREA 48\n")
                          import re 
-                         a50="un maestro de todas las areas es un maestro en ni una pero sigue siendo mejor que un maestro es una area "  
+                         a50="un maestro de todas las areas es un maestro en ninguna pero sigue siendo mejor que un maestro en una area"  
                          b50=re.findall("[a-e]",a50)
                          print(b50)
                     case 9:
