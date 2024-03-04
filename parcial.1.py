@@ -1,3 +1,8 @@
+#Marifer Etsrada Rubio 
+#21310110 
+#03/03/2024 
+#Materia:Inteligencia Artificial 
+#Maestro:Mauricio Alejandro Cabrera Arellano
 import sys
 
 def menu():
